@@ -1,0 +1,33 @@
+.container {
+	min-height: 60vh;
+	max-width: 100%;
+	margin-bottom: 40px;
+  }
+  
+  .column-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+
+  }
+  
+  .list1 {
+	width: 80%; 
+	margin: 0 auto;	
+}
+
+.list1 a {
+	display: block; 
+	padding: 10px; 
+	background-color: black; 
+	color: #fff; 
+	text-decoration: none; 
+	border-radius: 5px; 
+}
+
+.list1 a i.fas.fa-file-pdf {
+	font-size: 24px; 
+	color: #fff; 
+	margin-right: 10px;
+}
